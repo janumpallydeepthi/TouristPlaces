@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card {
+    border: none;
+    transition: 0.3s;
+    background: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn {
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.img-fluid, .gallery-img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-fluid:hover, .gallery-img:hover {
+    transform: scale(1.1);
+}
+
+.gallery-img:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-img {
+    width: 100%;
+    height: 250px;      
+    object-fit: cover; 
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 15px;
+}
+
+.cta {
+    background: #343a40;
+    padding: 50px;
+}
+
+.about-hero {
+    background: url('assets/about-banner.jpg') no-repeat center center/cover;
+    height: 350px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h2 {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.team-section {
+    background: #f8f9fa;
+    padding: 50px 0;
+}
+
+.team-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.team-card:hover {
+    transform: scale(1.05);
+}
+
+.team-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #007bff;
+}
