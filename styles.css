@@ -5,15 +5,21 @@ body {
 
 .carousel-item img {
     width: 100%;
-    height: auto;
-    max-height: 400px;
-    object-fit: contain;
+    height: 400px;
+    object-fit: cover; /* This ensures the images are cropped to maintain the full width and height */
 }
 
 .carousel-caption {
     background: rgba(0, 0, 0, 0.5);
     padding: 15px;
     border-radius: 10px;
+}
+
+/* Equal Ratio for the About Section images */
+.equal-ratio {
+    width: 100%;
+    height: 250px; /* Adjust height as needed for equal ratio */
+    object-fit: cover; /* Ensures the images keep their aspect ratio and fill the container */
 }
 
 .card {
